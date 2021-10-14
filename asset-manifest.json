@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/rp-desighn/static/css/main.dcce9af9.chunk.css",
-    "main.js": "/rp-desighn/static/js/main.11ada37c.chunk.js",
-    "main.js.map": "/rp-desighn/static/js/main.11ada37c.chunk.js.map",
+    "main.css": "/rp-desighn/static/css/main.2c01e88d.chunk.css",
+    "main.js": "/rp-desighn/static/js/main.ae1187e5.chunk.js",
+    "main.js.map": "/rp-desighn/static/js/main.ae1187e5.chunk.js.map",
     "runtime-main.js": "/rp-desighn/static/js/runtime-main.3ed8901d.js",
     "runtime-main.js.map": "/rp-desighn/static/js/runtime-main.3ed8901d.js.map",
     "static/css/2.c1256375.chunk.css": "/rp-desighn/static/css/2.c1256375.chunk.css",
@@ -10,16 +10,16 @@
     "static/js/2.473c1809.chunk.js.map": "/rp-desighn/static/js/2.473c1809.chunk.js.map",
     "index.html": "/rp-desighn/index.html",
     "static/css/2.c1256375.chunk.css.map": "/rp-desighn/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.dcce9af9.chunk.css.map": "/rp-desighn/static/css/main.dcce9af9.chunk.css.map",
+    "static/css/main.2c01e88d.chunk.css.map": "/rp-desighn/static/css/main.2c01e88d.chunk.css.map",
     "static/js/2.473c1809.chunk.js.LICENSE.txt": "/rp-desighn/static/js/2.473c1809.chunk.js.LICENSE.txt",
     "static/media/Navbar.module.css": "/rp-desighn/static/media/background.12188016.jpg",
-    "static/media/Loga 2 + ДОП1 .83189041.png": "/rp-desighn/static/media/Loga 2 + ДОП1 .83189041.png"
+    "static/media/Logo.bc3e27e5.png": "/rp-desighn/static/media/Logo.bc3e27e5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3ed8901d.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.473c1809.chunk.js",
-    "static/css/main.dcce9af9.chunk.css",
-    "static/js/main.11ada37c.chunk.js"
+    "static/css/main.2c01e88d.chunk.css",
+    "static/js/main.ae1187e5.chunk.js"
   ]
 }
