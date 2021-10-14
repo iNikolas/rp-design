@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rp-desighn/static/css/main.2678fc6d.chunk.css",
-    "main.js": "/rp-desighn/static/js/main.ccfed6cb.chunk.js",
-    "main.js.map": "/rp-desighn/static/js/main.ccfed6cb.chunk.js.map",
+    "main.js": "/rp-desighn/static/js/main.aaae6716.chunk.js",
+    "main.js.map": "/rp-desighn/static/js/main.aaae6716.chunk.js.map",
     "runtime-main.js": "/rp-desighn/static/js/runtime-main.3ed8901d.js",
     "runtime-main.js.map": "/rp-desighn/static/js/runtime-main.3ed8901d.js.map",
     "static/css/2.c1256375.chunk.css": "/rp-desighn/static/css/2.c1256375.chunk.css",
@@ -13,13 +13,13 @@
     "static/css/main.2678fc6d.chunk.css.map": "/rp-desighn/static/css/main.2678fc6d.chunk.css.map",
     "static/js/2.756329eb.chunk.js.LICENSE.txt": "/rp-desighn/static/js/2.756329eb.chunk.js.LICENSE.txt",
     "static/media/Navbar.module.css": "/rp-desighn/static/media/background.12188016.jpg",
-    "static/media/Logo.bc3e27e5.png": "/rp-desighn/static/media/Logo.bc3e27e5.png"
+    "static/media/Loga 3.ce18414e.png": "/rp-desighn/static/media/Loga 3.ce18414e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3ed8901d.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.756329eb.chunk.js",
     "static/css/main.2678fc6d.chunk.css",
-    "static/js/main.ccfed6cb.chunk.js"
+    "static/js/main.aaae6716.chunk.js"
   ]
 }
