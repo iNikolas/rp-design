@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rp-desighn/static/css/main.fbefe0fa.chunk.css",
-    "main.js": "/rp-desighn/static/js/main.e78c05a6.chunk.js",
-    "main.js.map": "/rp-desighn/static/js/main.e78c05a6.chunk.js.map",
+    "main.js": "/rp-desighn/static/js/main.fbedc029.chunk.js",
+    "main.js.map": "/rp-desighn/static/js/main.fbedc029.chunk.js.map",
     "runtime-main.js": "/rp-desighn/static/js/runtime-main.47c28f48.js",
     "runtime-main.js.map": "/rp-desighn/static/js/runtime-main.47c28f48.js.map",
     "static/css/2.c1256375.chunk.css": "/rp-desighn/static/css/2.c1256375.chunk.css",
@@ -26,13 +26,14 @@
     "static/media/Снимок2.62739604.JPG": "/rp-desighn/static/media/Снимок2.62739604.JPG",
     "static/media/Снимок3.6d653cb8.JPG": "/rp-desighn/static/media/Снимок3.6d653cb8.JPG",
     "static/media/Снимок4.5c9b17a6.JPG": "/rp-desighn/static/media/Снимок4.5c9b17a6.JPG",
-    "static/media/Снимок5.0da4bea0.JPG": "/rp-desighn/static/media/Снимок5.0da4bea0.JPG"
+    "static/media/Снимок5.0da4bea0.JPG": "/rp-desighn/static/media/Снимок5.0da4bea0.JPG",
+    "static/media/Снимок6.6dc08f39.JPG": "/rp-desighn/static/media/Снимок6.6dc08f39.JPG"
   },
   "entrypoints": [
     "static/js/runtime-main.47c28f48.js",
     "static/css/2.c1256375.chunk.css",
     "static/js/2.7d935fc7.chunk.js",
     "static/css/main.fbefe0fa.chunk.css",
-    "static/js/main.e78c05a6.chunk.js"
+    "static/js/main.fbedc029.chunk.js"
   ]
 }
