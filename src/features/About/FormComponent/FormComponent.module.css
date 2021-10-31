@@ -1,0 +1,57 @@
+@font-face {
+  font-family: BebasNeue-Bold;
+  src: url("./../BebasNeue-Bold.ttf") format("truetype"),
+    url("./../BebasNeue-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url("./../BebasNeue-Regular.ttf") format("truetype"),
+    url("./../BebasNeue-Regular.otf") format("opentype");
+}
+
+.form-container {
+  padding: 10px;
+  text-align: center;
+  color: #444;
+}
+
+.submit-button {
+  height: 40px;
+  overflow: hidden;
+  width: 110px;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 35px;
+  background-color: rgb(67, 113, 167);
+  border-color: rgb(67, 113, 167);
+}
+
+.submit-button div {
+  transform: translateY(-31%);
+}
+
+.main-form {
+  position: relative;
+}
+
+.main-slogan {
+  font-family: BebasNeue-Bold, sans-serif;
+  margin: 0;
+}
+
+.additional-slogan {
+  font-family: BebasNeue-Regular, sans-serif;
+  font-weight: lighter;
+  color: rgb(67, 113, 167);
+}
+
+.form-description {
+  margin: 30px 0 5px;
+  font-size: 0.6em;
+  text-align: justify;
+}
+
+.form-check {
+  text-align: justify;
+}

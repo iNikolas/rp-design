@@ -1,0 +1,49 @@
+.header {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-top: 10px;
+}
+
+.thumbnail-image {
+  width: 20%;
+  cursor: pointer;
+}
+
+.thumbnails-container,
+.thumbnails-dashboard-container {
+  display: flex;
+  align-items: center;
+}
+
+.thumbnails-container {
+  gap: 10px;
+  transition: transform 1.5s ease-in-out;
+}
+
+.thumbnails-dashboard-container {
+  position: relative;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+.thumbnails-dashboard-container li {
+  position: absolute;
+  z-index: 1;
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.thumbnails-dashboard-container a {
+  opacity: 0.5;
+}
+
+.thumbnails-dashboard-container li:first-child {
+  left: 0;
+}
+
+.thumbnails-dashboard-container li:last-child {
+  right: 0;
+}

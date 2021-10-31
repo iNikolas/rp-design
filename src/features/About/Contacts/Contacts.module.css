@@ -1,0 +1,95 @@
+@font-face {
+  font-family: BebasNeue-Bold;
+  src: url("./../BebasNeue-Bold.ttf") format("truetype"),
+    url("./../BebasNeue-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: BebasNeue-Regular;
+  src: url("./../BebasNeue-Regular.ttf") format("truetype"),
+    url("./../BebasNeue-Regular.otf") format("opentype");
+}
+
+.contacts-container {
+  border: 1px solid #333;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 40px;
+}
+
+.contacts-header {
+  display: block;
+  background-color: ghostwhite;
+  font-family: BebasNeue-Bold, sans-serif;
+  padding: 5px;
+  text-align: center;
+  color: #555;
+}
+
+.country-block,
+.city-block,
+.email-block {
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #444;
+}
+
+.country-block span:first-child,
+.city-block span:first-child,
+.email-block span:first-child {
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.country-block {
+  margin-top: 25px;
+}
+
+.email-block {
+  margin-bottom: 35px;
+}
+
+.social-media-block {
+  background-color: rgb(67, 113, 167);
+  color: whitesmoke;
+  padding: 10px;
+  text-align: center;
+}
+
+.social-media-header {
+  margin: 0;
+  font-family: BebasNeue-Bold, sans-serif;
+}
+
+.social-media-sub-header {
+  font-family: BebasNeue-Regular, sans-serif;
+  margin: 0;
+  font-size: 0.7em;
+}
+
+.contacts-nav {
+  margin: 0;
+  padding: 0;
+}
+
+.contacts-nav li {
+    display: inline;
+}
+
+.contacts-nav a {
+    display: inline-block;
+    padding: 0.3em;
+    color: white;
+    text-decoration: none;
+}
+
+.contacts-nav img {
+    width: 35px;
+    height: auto;
+}
+
+.contacts-nav a:hover {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}

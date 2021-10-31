@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "AmaticSC-Bold";
+    src: url("AmaticSC-Bold.ttf") format("truetype");
+}
+
+@media only screen and (orientation : portrait) {
+    .img {
+        height: 35vh;
+        object-fit: contain;
+    }
+}
+
+.carousel-container {
+    font-family: AmaticSC-Bold, fantasy;
+    font-weight: bolder !important;
+}

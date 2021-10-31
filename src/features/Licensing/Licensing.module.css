@@ -1,0 +1,87 @@
+.knives-wrapper {
+  margin: 15px 0;
+}
+
+.knives-wrapper div {
+  padding: 10px;
+}
+
+.knives-wrapper > div:nth-child(even) {
+  background-color: ghostwhite;
+}
+
+.two-entry-style,
+.three-entry-style,
+.four-entry-style,
+.five-entry-style {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.two-entry-style > div {
+  flex-basis: 50%;
+  background-color: inherit !important;
+}
+
+.three-entry-style > div {
+  flex-basis: 33%;
+  background-color: inherit !important;
+}
+
+.four-entry-style > div {
+  flex-basis: 25%;
+  background-color: inherit !important;
+}
+
+.five-entry-style > div {
+  flex-basis: 20%;
+  background-color: inherit !important;
+}
+
+@media screen and (orientation: landscape) {
+  .two-entry-style > div {
+    flex-basis: 48%;
+    margin: 0;
+  }
+
+  .three-entry-style > div {
+    flex-basis: 31%;
+    margin: 0;
+  }
+
+  .four-entry-style > div {
+    flex-basis: 23%;
+    margin: 0;
+  }
+
+  .five-entry-style > div {
+    flex-basis: 18%;
+    margin: 0;
+  }
+
+  .two-entry-style,
+  .three-entry-style,
+  .four-entry-style,
+  .five-entry-style {
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1000px) {
+  .two-entry-style,
+  .three-entry-style,
+  .four-entry-style,
+  .five-entry-style {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 600px) {
+  .two-entry-style {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}

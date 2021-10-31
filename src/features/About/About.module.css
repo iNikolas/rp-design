@@ -1,0 +1,38 @@
+@media screen and (orientation: landscape) {
+  .about-container {
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+
+@media screen and (max-width: 1200px) and (orientation: landscape) {
+  .about-container {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+}
+
+@media screen and (max-width: 1000px) and (orientation: landscape) {
+  .about-container {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  .about-container {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}
+
+@media screen and (max-width: 700px) and (orientation: landscape) {
+  .about-container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

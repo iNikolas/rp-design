@@ -1,0 +1,38 @@
+.main-wrapper {
+  padding: 0 10px;
+}
+
+.back-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: rgb(67, 113, 167);
+  display: inline-block;
+}
+
+.back-link:hover {
+  background-color: rgba(67, 113, 167, 0.05);
+}
+
+@media screen and (orientation: landscape) {
+  .main-wrapper {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .back-link {
+    margin-left: 9.2%;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1000px) {
+  .main-wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 600px) {
+  .main-wrapper {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+}

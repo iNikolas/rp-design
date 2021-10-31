@@ -1,0 +1,48 @@
+.btn-wrapper {
+  padding-right: 10px;
+  padding-top: 1px;
+}
+
+.btn-wrapper,
+.btn-block {
+  display: flex;
+  justify-content: right;
+}
+
+.btn-wrapper button {
+  display: block;
+  background: none;
+  border: 2px solid #999;
+  outline: none;
+  padding: 0;
+  margin: 2px;
+}
+
+.horizontal-img,
+.vertical-img {
+  filter: invert(0.8);
+}
+
+.horizontal-img {
+  display: block;
+  height: 6px;
+}
+
+.vertical-img {
+  display: inline-block;
+  width: 6px;
+  margin-bottom: 2px;
+}
+
+.btn-wrapper button:hover {
+  cursor: pointer;
+  border: 2px solid #555;
+}
+
+.active {
+  border: 2px solid #333 !important;
+}
+
+.active img {
+  filter: none !important;
+}

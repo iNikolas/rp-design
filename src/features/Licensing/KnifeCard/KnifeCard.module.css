@@ -1,0 +1,92 @@
+.main-wrapper {
+  clear: left;
+  cursor: pointer;
+}
+
+.main-wrapper:hover {
+  text-shadow: 0px 0px 1px #aaa;
+}
+
+.card-image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 3px;
+  border: 1px solid #444;
+  margin-bottom: 3px;
+}
+
+.knife-name {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.main-description,
+.verbose-description {
+  font-size: 0.75em;
+  font-family: monospace;
+  line-height: 2em;
+  text-align: justify;
+}
+
+.main-description {
+  margin-bottom: 1em;
+  text-align: justify;
+}
+
+.verbose-description div {
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.two-entry-style .verbose-description,
+.three-entry-style .verbose-description,
+.four-entry-style .verbose-description,
+.five-entry-style .verbose-description {
+  display: none;
+}
+
+.four-entry-style .knife-name,
+.five-entry-style .knife-name {
+  font-size: 1vw;
+}
+
+@media screen and (orientation: landscape) {
+  .one-entry-style .card-image {
+    width: 35%;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 10px;
+  }
+
+  .one-entry-style .knife-name {
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    display: block;
+  }
+
+  .main-wrapper {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: inherit !important;
+  }
+
+  .one-entry-style .first-header {
+    border-top: none;
+  }
+}
+
+@media screen and (orientation: landscape) and (max-width: 1000px) {
+  .main-wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .one-entry-style .card-image {
+    width: 40%;
+  }
+}

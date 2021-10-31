@@ -1,0 +1,40 @@
+.header {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: monospace;
+  font-weight: bold;
+  margin-bottom: 3px;
+  margin-top: 10px;
+  font-size: 1.3em;
+}
+
+.main-header {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.main-description,
+.verbose-description {
+  font-family: monospace;
+  line-height: 2em;
+  text-align: justify;
+}
+
+.main-description {
+  margin-bottom: 1em;
+}
+
+.verbose-description div {
+  padding: 0;
+  margin: 0;
+}
+
+.verbose-description div:last-child {
+  margin-bottom: 20px;
+}
+
+.parameter-caption {
+  font-weight: bold;
+  font-size: 1.1em;
+}
